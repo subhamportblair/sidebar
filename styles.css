@@ -1,0 +1,35 @@
+body {
+  font: sans-serif;
+  background-color: #fff;
+}
+.sidebar {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+  width: 10rem;
+  height: 80vh;
+}
+#sb-heading {
+  color: blueviolet;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.sb-item {
+  padding: 0.5rem;
+  margin: 4px;
+
+  cursor: pointer;
+}
+
+.sb-item:hover {
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
